@@ -42,6 +42,7 @@ $marginAuto:0px auto;
     src: url("../font/YekanBakh-ExtraBold.woff") format("woff"),
   }
 
+
 @media all and (max-width: 767.999px) {
     .margin-404 {
       margin-top: 110px;
@@ -110,7 +111,7 @@ $marginAuto:0px auto;
     }
     .btn-ab {
       position: absolute;
-      right: 305px;
+      right: 280px;
       top: 5px;
     }
     .real input[type="email"] {
@@ -177,6 +178,31 @@ $marginAuto:0px auto;
       color: $cardDetail;
       }
   } 
+
+  @media (min-width: 320px) {
+  .btn-ab {
+    position: absolute;
+    right: 200px;
+    top: 5px;
+  }
+}
+
+@media (min-width: 375px) {
+  .btn-ab {
+    position: absolute;
+    right: 250px;
+    top: 5px;
+  }
+}
+
+@media (min-width: 425px) {
+  .btn-ab {
+    position: absolute;
+    right: 300px;
+    top: 5px;
+  }
+}
+
 @media all and (min-width:768px) and (max-width:1023.999px) {
     
     .margin-404 {

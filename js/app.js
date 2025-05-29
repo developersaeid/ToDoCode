@@ -161,7 +161,13 @@ async function login() {
   });
   const data = await response.json();
   if (response) {
-      alert('ورود موفق');
+      Swal.fire({
+        title: "ورود موفق",
+        icon: "success",
+        timer: 5000,
+        timerProgressBar: true,
+        confirmButtonText: "خوش آمدید"
+      });
       console.log('User Token:', data.token);
 
       window.location.href = 'index.html';

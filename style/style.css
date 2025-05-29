@@ -11,6 +11,7 @@
   src: url("../font/YekanBakh-ExtraBold.woff") format("woff");
 }
 
+
 @media all and (max-width: 767.999px) {
   .btn-ab {
     position: absolute;
@@ -154,13 +155,31 @@
     margin-top: 30px;
   }
 }
-@media (max-width: 375px) {
+
+@media (min-width: 320px) {
   .btn-ab {
     position: absolute;
-    right: 255px;
+    right: 200px;
     top: 5px;
   }
 }
+
+@media (min-width: 375px) {
+  .btn-ab {
+    position: absolute;
+    right: 250px;
+    top: 5px;
+  }
+}
+
+@media (min-width: 425px) {
+  .btn-ab {
+    position: absolute;
+    right: 300px;
+    top: 5px;
+  }
+}
+
 @media all and (min-width: 768px) and (max-width: 1023.999px) {
   .margin-404 {
     margin-top: 140px;
